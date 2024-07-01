@@ -3,6 +3,8 @@ features:
     check-version: true
 rules:
   bugs:
+    annotation-without-metadata:
+      level: error
     constant-condition:
       level: error
     deprecated-builtin:

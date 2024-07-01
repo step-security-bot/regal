@@ -91,6 +91,9 @@ impossible_not if {
 	not partial
 }
 
+# title: annotation without metadata
+some_rule := true
+
 ### Idiomatic ###
 
 custom_has_key_construct(map, key) if {
